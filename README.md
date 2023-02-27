@@ -1,7 +1,7 @@
 ## React start up
 
 親フォルダに移動
-1. docker-compose run --rm front sh -c "npm install -g create-react-app && create-react-app frontend"
+1. docker-compose run --rm front sh -c "npm install -g create-react-app && create-react-app . --template typescript"
 2. docker-compose up -d
 3. docker exec -it node sh //'node'はコンテナ名
 4. npx create-react-app . --template typescript --use-npm
