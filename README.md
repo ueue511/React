@@ -1,6 +1,7 @@
 ## React start up
-※　frontendのフォルダにnode_modules package.json package-lock.jsonを入れてあること
-1. docker-compose build
+
+親フォルダに移動
+1. docker-compose run --rm front sh -c "npm install -g create-react-app && create-react-app frontend"
 2. docker-compose up -d
 3. docker exec -it node sh //'node'はコンテナ名
 4. npx create-react-app . --template typescript --use-npm
