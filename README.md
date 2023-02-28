@@ -1,5 +1,6 @@
 ## React start up
 
+※ frontendフォルダーの中身は削除
 親フォルダに移動
 1. docker-compose run --rm front sh -c "npm install -g create-react-app && create-react-app . --template typescript"
 2. docker-compose up -d
